@@ -28,5 +28,5 @@ Edit ``mqtt_publish.py``  and replace  **WIRID_LAB_AUTH_TOKEN**, **MAIN_TOPIC**,
 
 Run the application 
 ```sh
-python mqtt_subscribe.py
+python mqtt_publish.py
 ```
