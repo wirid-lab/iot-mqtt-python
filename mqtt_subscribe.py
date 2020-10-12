@@ -20,9 +20,9 @@ BROKER_URL="mqtt.wiridlab.site"
 BROKER_PORT=8883
 WIRID_LAB_AUTH_TOKEN="<YOUR_TOKEN>"
 MAIN_TOPIC ="iot/<YOUR_EMAIL>/#"
-API_NAME ="<NODE_API_NAME>"
+CLIENT_ID ="<NODE_ID>"
 
-client = mqtt.Client(API_NAME)
+client = mqtt.Client(CLIENT_ID)
 client.on_subscribe = on_subscribe
 client.on_connect = on_connect
 client.on_message = on_message

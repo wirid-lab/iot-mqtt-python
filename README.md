@@ -14,7 +14,7 @@ Pub/Sub code to connect the *WIRID-LAB IoT* MQTT broker to your IoT project, if 
 
 #### Subscription
 
-Edit ``mqtt_subscribe.py``  and replace  **WIRID_LAB_AUTH_TOKEN**, **MAIN_TOPIC** and **API_NAME** variables according to the  [documentation](https://wirid-lab.github.io/docs/iot/mqtt).
+Edit ``mqtt_subscribe.py``  and replace  **WIRID_LAB_AUTH_TOKEN**, **MAIN_TOPIC** and **CLIENT_ID** variables according to the  [documentation](https://wirid-lab.github.io/docs/iot/mqtt).
 
 Run the application 
 ```sh
@@ -24,7 +24,7 @@ python mqtt_subscribe.py
 ####  Publish to a specific topic
 
 
-Edit ``mqtt_publish.py``  and replace  **WIRID_LAB_AUTH_TOKEN**, **MAIN_TOPIC**, **PUB_TOPIC** and **API_NAME** variables according to the  [documentation](https://wirid-lab.github.io/docs/iot/mqtt).
+Edit ``mqtt_publish.py``  and replace  **WIRID_LAB_AUTH_TOKEN**, **MAIN_TOPIC**, **PUB_TOPIC** and **CLIENT_ID** variables according to the  [documentation](https://wirid-lab.github.io/docs/iot/mqtt).
 
 Run the application 
 ```sh
